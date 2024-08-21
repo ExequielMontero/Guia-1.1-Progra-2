@@ -1,0 +1,21 @@
+-------------------------------------------------------------------
+
+Ejercicio 1. Concecionaria Motos
+
+*Moto
+-marca:string
+-modelo:string
+-valorfabrica:double
+<<create>>+Moto(string marca, string modelo, double valorfabrica)
+
+*Calculadora
+-nombre
+-modelo
+-color
+-DepreciacionLineal(monto:Moto, modelo:Moto):double
+-DepreciacionAnual(monto:Moto, tasadepreciacion:double):double
+-VerDescripcion():string
+
+------------------------------------------------------------------------
+
+Ejercicio 3. Sistema de peaje
